@@ -28,9 +28,6 @@ class MainActivity : AppCompatActivity() {
         binding.resultText.text=resources.getText(R.string.result)
         binding.resultText.setTextColor(Color.BLACK)
 
-
-
-
     }
 
     /*The method that allows us to determine which part of the
@@ -41,7 +38,6 @@ class MainActivity : AppCompatActivity() {
 
 
         if(selectedGenderId==-1){
-
             Toast.makeText(this,resources.getString(R.string.chooseGender), Toast.LENGTH_SHORT).show()
             return
         }
@@ -52,9 +48,11 @@ class MainActivity : AppCompatActivity() {
 
 
         if (selectedGender.equals(resources.getString(R.string.male), ignoreCase = true)){
+
             calculateBMIMale()
 
         }else{
+
             calculateBMIFemale()
         }
 
@@ -95,6 +93,8 @@ class MainActivity : AppCompatActivity() {
             binding.resultText.text="${resources.getString(R.string.bmi)} $bmiResult \n${resources.getString(R.string.category)} $bmiCategory"
 
         } else{
+            binding.resultText.text=resources.getString(R.string.result)
+            binding.resultText.setTextColor(Color.BLACK)
             Toast.makeText(this,resources.getString(R.string.invalid), Toast.LENGTH_SHORT).show()
         }
 
@@ -134,6 +134,8 @@ class MainActivity : AppCompatActivity() {
             binding.resultText.text="${resources.getString(R.string.bmi)} $bmiResult \n${resources.getString(R.string.category)} $bmiCategory"
 
         } else{
+            binding.resultText.text=resources.getString(R.string.result)
+            binding.resultText.setTextColor(Color.BLACK)
             Toast.makeText(this,resources.getString(R.string.invalid), Toast.LENGTH_SHORT).show()
         }
 
