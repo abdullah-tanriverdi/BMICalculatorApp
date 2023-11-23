@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">BMICalculatorApp</string>
     <string name="splashScreenText">BMI Calculator App</string>
+    <string name="choose_gender">Choose Your Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="calculate">Calculate BMI</string>
+    <string name="reset">Reset BMI</string>
+    <string name="result">RESULT</string>
+    <string name="chooseGender">You Must Choose Your Gender.</string>
+    <string name="underWeight">UNDERWEİGHT</string>
+    <string name="normalWeight">NORMAL WEİGHT</string>
+    <string name="overWeight">OVERWEİGHT</string>
+    <string name="obese">OBESE</string>
+    <string name="category">CATEGORY:</string>
+    <string name="bmi">BMI:</string>
+    <string name="invalid">You Must Enter Your Information.</string>
+
+
 </resources>
