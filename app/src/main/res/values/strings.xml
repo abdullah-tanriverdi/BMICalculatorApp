@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BMICalculatorApp</string>
+    <string name="splashScreenText">BMI Calculator App</string>
+</resources>
