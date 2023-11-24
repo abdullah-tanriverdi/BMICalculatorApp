@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BMICalculatorApp</string>
+    <string name="app_name">BMI Calculator</string>
     <string name="splashScreenText">BMI Calculator App</string>
     <string name="choose_gender">Choose Your Gender</string>
     <string name="male">Male</string>
